@@ -80,6 +80,6 @@ d["turnus"] = 'monthly'
 d["end"] = "01.06.2022"
 l = [d, d]
 import json
-PROG_JSON = "/Users/mfuchs/HiDrive/users/sphere/kontoviznew/KontoViz/data/Prognosen.json"
+PROG_JSON = ""
 with open(PROG_JSON, 'w') as f:
     json.dump(l, f)
