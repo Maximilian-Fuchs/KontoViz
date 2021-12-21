@@ -22,7 +22,7 @@ def get_records_raw(data_dir, encoding='utf-8'):
     """Returns list of records as strings from the data director"""
     records_raw = list()
     for filename in sorted(os.listdir(data_dir)):
-        if filename.endswith(".csv"):
+        if filename.endswith(".csv") and filename.startswith("Umsaetze"):
             records_raw.append(read_text(os.path.join(data_dir, filename), 'cp1252'))
     
     return records_raw
