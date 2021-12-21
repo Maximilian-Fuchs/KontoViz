@@ -5,3 +5,5 @@ __pycache__/*
 
 # dont commit private notebooks
 *.ipynb
+
+KontoLib.pyc
