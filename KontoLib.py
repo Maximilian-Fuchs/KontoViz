@@ -131,7 +131,6 @@ def structure_bookings(bookings_raw):
     # create list to hold dictionary representations of bookings
     structured_bookings = list()
     # iterate over bookings
-    i = 0
     for raw_booking in raw_bookings_list:
         # create dict to store structured booking data
         bdict = dict()
@@ -148,9 +147,8 @@ def structure_bookings(bookings_raw):
         bdict['Umsatz'] = get_balance(bdict['Umsatz'], bdict['Haben/Soll'])
         # add dictionary to structured bookings list
         structured_bookings.append(bdict)
-
-    
     return structured_bookings
+
 
 def structure_sections(named_sections):
     """Structures the data in the different sections of a record"""
