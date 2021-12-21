@@ -1,0 +1,7 @@
+data/*
+__pycache__/*
+.vscode/settings.json
+.ipynb_checkpoints/*
+
+# dont commit private notebooks
+*.ipynb
