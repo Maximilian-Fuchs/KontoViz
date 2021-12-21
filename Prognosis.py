@@ -32,7 +32,7 @@ class Prognosis:
 lohn = Prognosis(
             description="Lohn bis Juni",
             start="20.12.2021",
-            amount=6000, 
+            amount=6000,
             category='Gains', 
             turnus='monthly',
             end="01.06.2022")
