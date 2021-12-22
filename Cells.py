@@ -127,6 +127,7 @@ def load_records(DATA_DIR):
     # pprint(balance_dict)
 
     balance_dict = get_balance_per_day(records_structured)
+    return balance_dict
 
 DATA_DIR = "/Users/mfuchs/HiDrive/users/sphere/kontoviznew/KontoViz/data"
 load_records(DATA_DIR=DATA_DIR)
